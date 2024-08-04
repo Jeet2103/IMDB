@@ -1,8 +1,5 @@
-import numpy as np
-from tensorflow import keras
 from tensorflow.keras.utils import pad_sequences
 from tensorflow.keras.models import load_model
-from tensorflow.keras.layers import Embedding, SimpleRNN, Dense
 from tensorflow.keras.datasets import imdb
 import streamlit as st
 
