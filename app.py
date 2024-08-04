@@ -1,9 +1,9 @@
 import numpy as np
 from tensorflow import keras
-from keras.utils import pad_sequences
-from keras.models import load_model
-from keras.layers import Embedding, SimpleRNN, Dense
-from keras.datasets import imdb
+from tensorflow.keras.utils import pad_sequences
+from tensorflow.keras.models import load_model
+from tensorflow.keras.layers import Embedding, SimpleRNN, Dense
+from tensorflow.keras.datasets import imdb
 import streamlit as st
 
 model = load_model('IMDB.h5')
